@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 1000px;
+    height: 990px;
+    border: 1px solid black;
+    /* background-image: url(images/headerbg.jpg); */
+    background-color: #393e46;
+}
+
+#text {
+    width: 770px;
+    height: 225px;
+    border: 1px solid black;
+}
+
+#text #sayhi {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    border: 1px solid black;
+}
+
+#text #intro {
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+
+#signup {
+    position: absolute;
+    left: 310px;
+    top: 530px;
+    margin: 0 auto;
+    top: 530px;
+    width: 975px;
+    height: 255px;
+    border: 1px solid black;
+}
